@@ -4,7 +4,7 @@ body {
 }
 
 .topHeader {
-  position: a;
+  position: fixed;
   width: 100vw;
   background-color: #ffffff;
   display: flex;

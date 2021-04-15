@@ -1,0 +1,36 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.topHeader {
+  position: fixed;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 13px;
+  padding-top: 10px;
+}
+
+.menu {
+  margin-top: 10px;
+  color: #4a4a4a;
+}
+
+.menuSeparation {
+  margin-right: 20px;
+}
+
+.mainSection {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3cdbc0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}

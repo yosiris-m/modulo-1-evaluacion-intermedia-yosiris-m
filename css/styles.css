@@ -23,19 +23,39 @@ body {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .menu {
   margin-top: 10px;
-  color: #4a4a4a;
   font-size: 16px;
+  text-transform: uppercase;
 }
 
-.menuSeparation {
-  margin-right: 20px;
+.menu a {
+  color: #4a4a4a;
+  text-decoration-line: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 13px;
+  padding-top: 10px;
 }
 
-.mainSection {
+.menu a:hover {
+  color: rgb(27, 153, 126);
+  text-decoration-line: underline;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: row;
+  color: #4a4a4a;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
   width: 100vw;
   height: 100vh;
   background-color: #3cdbc0;

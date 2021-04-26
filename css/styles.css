@@ -24,6 +24,8 @@ body {
   font-weight: bold;
   text-align: center;
   text-transform: capitalize;
+  word-spacing: 100vw;
+  line-height: 1.52;
 }
 
 .menu {
